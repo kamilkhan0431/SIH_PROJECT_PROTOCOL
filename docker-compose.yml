@@ -1,0 +1,51 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: slopesense
+      POSTGRES_PASSWORD: slopesense
+      POSTGRES_DB: slopesense
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U slopesense"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://slopesense:slopesense@db:5432/slopesense
+      JWT_SECRET: slopesense-demo-secret
+      CORS_ORIGINS: http://localhost:3000,http://web:3000
+      DATA_DIR: /data
+      MODEL_PATH: /ml/model.joblib
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data:ro
+      - ./ml:/ml
+      - api_uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
+  api_uploads:

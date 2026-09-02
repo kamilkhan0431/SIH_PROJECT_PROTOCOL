@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.61,
+          27.33
+        ]
+      },
+      "properties": {
+        "name": "STNM Hospital",
+        "kind": "hospital",
+        "state": "Sikkim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.89,
+          25.58
+        ]
+      },
+      "properties": {
+        "name": "NEIGRIHMS",
+        "kind": "hospital",
+        "state": "Meghalaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.93,
+          24.81
+        ]
+      },
+      "properties": {
+        "name": "RIMS Imphal",
+        "kind": "hospital",
+        "state": "Manipur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.72,
+          23.73
+        ]
+      },
+      "properties": {
+        "name": "Civil Hospital Aizawl",
+        "kind": "hospital",
+        "state": "Mizoram"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.53,
+          27.17
+        ]
+      },
+      "properties": {
+        "name": "Teesta bridge Rangpo",
+        "kind": "bridge",
+        "state": "Sikkim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8,
+          24.83
+        ]
+      },
+      "properties": {
+        "name": "Barak bridge Silchar",
+        "kind": "bridge",
+        "state": "Assam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.08,
+          25.6
+        ]
+      },
+      "properties": {
+        "name": "Dzukou approach bridge",
+        "kind": "bridge",
+        "state": "Nagaland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.73,
+          25.27
+        ]
+      },
+      "properties": {
+        "name": "Sohra viewpoint roadhead",
+        "kind": "bridge",
+        "state": "Meghalaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.61,
+          27.32
+        ]
+      },
+      "properties": {
+        "name": "SDMA Gangtok",
+        "kind": "command",
+        "state": "Sikkim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.88,
+          25.57
+        ]
+      },
+      "properties": {
+        "name": "SEOC Shillong",
+        "kind": "command",
+        "state": "Meghalaya"
+      }
+    }
+  ]
+}

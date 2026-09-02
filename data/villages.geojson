@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.53,
+          27.17
+        ]
+      },
+      "properties": {
+        "name": "Rangpo",
+        "state": "Sikkim",
+        "district": "East Sikkim",
+        "population": 4200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.5,
+          27.23
+        ]
+      },
+      "properties": {
+        "name": "Singtam",
+        "state": "Sikkim",
+        "district": "East Sikkim",
+        "population": 5860
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.61,
+          27.33
+        ]
+      },
+      "properties": {
+        "name": "Gangtok",
+        "state": "Sikkim",
+        "district": "Gangtok",
+        "population": 100286
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.02,
+          25.17
+        ]
+      },
+      "properties": {
+        "name": "Haflong",
+        "state": "Assam",
+        "district": "Dima Hasao",
+        "population": 43600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8,
+          24.83
+        ]
+      },
+      "properties": {
+        "name": "Silchar",
+        "state": "Assam",
+        "district": "Cachar",
+        "population": 228985
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.72,
+          23.73
+        ]
+      },
+      "properties": {
+        "name": "Aizawl",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "population": 293416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.11,
+          25.67
+        ]
+      },
+      "properties": {
+        "name": "Kohima",
+        "state": "Nagaland",
+        "district": "Kohima",
+        "population": 99039
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.73,
+          25.91
+        ]
+      },
+      "properties": {
+        "name": "Dimapur",
+        "state": "Nagaland",
+        "district": "Dimapur",
+        "population": 122834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.87,
+          27.59
+        ]
+      },
+      "properties": {
+        "name": "Tawang",
+        "state": "Arunachal Pradesh",
+        "district": "Tawang",
+        "population": 11202
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.62,
+          27.08
+        ]
+      },
+      "properties": {
+        "name": "Itanagar",
+        "state": "Arunachal Pradesh",
+        "district": "Papum Pare",
+        "population": 59490
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.88,
+          25.57
+        ]
+      },
+      "properties": {
+        "name": "Shillong",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "population": 143229
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.73,
+          25.27
+        ]
+      },
+      "properties": {
+        "name": "Sohra",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "population": 11721
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.94,
+          24.81
+        ]
+      },
+      "properties": {
+        "name": "Imphal",
+        "state": "Manipur",
+        "district": "Imphal West",
+        "population": 268243
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.36,
+          25.12
+        ]
+      },
+      "properties": {
+        "name": "Ukhrul",
+        "state": "Manipur",
+        "district": "Ukhrul",
+        "population": 27200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.29,
+          23.83
+        ]
+      },
+      "properties": {
+        "name": "Agartala",
+        "state": "Tripura",
+        "district": "West Tripura",
+        "population": 400004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.73,
+          22.88
+        ]
+      },
+      "properties": {
+        "name": "Lunglei",
+        "state": "Mizoram",
+        "district": "Lunglei",
+        "population": 57000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.92,
+          25.2
+        ]
+      },
+      "properties": {
+        "name": "Mawlynnong",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "population": 530
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.83,
+          27.63
+        ]
+      },
+      "properties": {
+        "name": "Ziro",
+        "state": "Arunachal Pradesh",
+        "district": "Lower Subansiri",
+        "population": 12890
+      }
+    }
+  ]
+}
